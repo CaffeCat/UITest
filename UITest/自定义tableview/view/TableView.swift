@@ -92,7 +92,7 @@ class TableView: UITableView {
         let secNo = self.bubbleSection.count - 1
         let rowNo = self.bubbleSection[secNo].count
         let indexPath = IndexPath.init(row: rowNo, section: secNo)
-        self.scrollToRow(at: indexPath, at: .bottom, animated: true)
+        self.scrollToRow(at: indexPath, at: .bottom, animated: false)
     }
     
     //按日期排序方法
