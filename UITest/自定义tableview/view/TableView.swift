@@ -54,6 +54,7 @@ class TableView: UITableView {
         self.showsHorizontalScrollIndicator = false
         
         var count = 0
+        bubbleSection.removeAll()
         if self.chatDataSource != nil {
             count = self.chatDataSource.rowsForChatTable(self)
             if count > 0 {
