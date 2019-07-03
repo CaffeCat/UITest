@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let testTableVC = TestTableView_ViewController.init()
+        testTableVC.view.frame = UIScreen.main.bounds
+        testTableVC.view.backgroundColor = .white
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = testTableVC
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

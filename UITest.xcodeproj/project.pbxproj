@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40F197322CB0A940063BB3F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F197222CB0A940063BB3F /* TableViewCell.swift */; };
+		D40F197522CB2B450063BB3F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F197422CB2B450063BB3F /* TableView.swift */; };
+		D40F197722CB2BAF0063BB3F /* ChatDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F197622CB2BAF0063BB3F /* ChatDataSource.swift */; };
+		D40F197922CB37B70063BB3F /* TestTableView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F197822CB37B70063BB3F /* TestTableView_ViewController.swift */; };
+		D40F198322CB44E70063BB3F /* yourBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F197C22CB44E70063BB3F /* yourBubble.png */; };
+		D40F198422CB44E70063BB3F /* mineBubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F197D22CB44E70063BB3F /* mineBubble@2x.png */; };
+		D40F198522CB44E70063BB3F /* xiaohua.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F197E22CB44E70063BB3F /* xiaohua.png */; };
+		D40F198622CB44E70063BB3F /* sz.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F197F22CB44E70063BB3F /* sz.png */; };
+		D40F198722CB44E70063BB3F /* xiaoming.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F198022CB44E70063BB3F /* xiaoming.png */; };
+		D40F198822CB44E70063BB3F /* yourBubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F198122CB44E70063BB3F /* yourBubble@2x.png */; };
+		D40F198922CB44E70063BB3F /* mineBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F198222CB44E70063BB3F /* mineBubble.png */; };
+		D40F198B22CB49400063BB3F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F198A22CB49400063BB3F /* UserInfo.swift */; };
+		D40F198D22CB4D230063BB3F /* TableHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F198C22CB4D230063BB3F /* TableHeaderViewCell.swift */; };
 		D4654AD222C5EA0D00E36FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AD122C5EA0D00E36FB2 /* AppDelegate.swift */; };
 		D4654AD422C5EA0D00E36FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AD322C5EA0D00E36FB2 /* ViewController.swift */; };
 		D4654AD722C5EA0D00E36FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4654AD522C5EA0D00E36FB2 /* Main.storyboard */; };
@@ -14,6 +27,7 @@
 		D4654ADC22C5EA0F00E36FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4654ADA22C5EA0F00E36FB2 /* LaunchScreen.storyboard */; };
 		D4654AE722C5EA0F00E36FB2 /* UITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AE622C5EA0F00E36FB2 /* UITestTests.swift */; };
 		D4654AF222C5EA0F00E36FB2 /* UITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AF122C5EA0F00E36FB2 /* UITestUITests.swift */; };
+		D4654B0322C5EB5000E36FB2 /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654B0222C5EB5000E36FB2 /* MessageItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D40F197222CB0A940063BB3F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D40F197422CB2B450063BB3F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		D40F197622CB2BAF0063BB3F /* ChatDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatDataSource.swift; path = ../view/ChatDataSource.swift; sourceTree = "<group>"; };
+		D40F197822CB37B70063BB3F /* TestTableView_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableView_ViewController.swift; sourceTree = "<group>"; };
+		D40F197C22CB44E70063BB3F /* yourBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yourBubble.png; sourceTree = "<group>"; };
+		D40F197D22CB44E70063BB3F /* mineBubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineBubble@2x.png"; sourceTree = "<group>"; };
+		D40F197E22CB44E70063BB3F /* xiaohua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaohua.png; sourceTree = "<group>"; };
+		D40F197F22CB44E70063BB3F /* sz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sz.png; sourceTree = "<group>"; };
+		D40F198022CB44E70063BB3F /* xiaoming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoming.png; sourceTree = "<group>"; };
+		D40F198122CB44E70063BB3F /* yourBubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yourBubble@2x.png"; sourceTree = "<group>"; };
+		D40F198222CB44E70063BB3F /* mineBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mineBubble.png; sourceTree = "<group>"; };
+		D40F198A22CB49400063BB3F /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		D40F198C22CB4D230063BB3F /* TableHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderViewCell.swift; sourceTree = "<group>"; };
 		D4654ACE22C5EA0D00E36FB2 /* UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4654AD122C5EA0D00E36FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4654AD322C5EA0D00E36FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +74,7 @@
 		D4654AED22C5EA0F00E36FB2 /* UITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4654AF122C5EA0F00E36FB2 /* UITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestUITests.swift; sourceTree = "<group>"; };
 		D4654AF322C5EA0F00E36FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4654B0222C5EB5000E36FB2 /* MessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D40F197A22CB40DA0063BB3F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D40F197822CB37B70063BB3F /* TestTableView_ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D40F197B22CB44D10063BB3F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D40F198222CB44E70063BB3F /* mineBubble.png */,
+				D40F197D22CB44E70063BB3F /* mineBubble@2x.png */,
+				D40F197F22CB44E70063BB3F /* sz.png */,
+				D40F197E22CB44E70063BB3F /* xiaohua.png */,
+				D40F198022CB44E70063BB3F /* xiaoming.png */,
+				D40F197C22CB44E70063BB3F /* yourBubble.png */,
+				D40F198122CB44E70063BB3F /* yourBubble@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		D4654AC522C5EA0D00E36FB2 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +147,7 @@
 		D4654AD022C5EA0D00E36FB2 /* UITest */ = {
 			isa = PBXGroup;
 			children = (
+				D4654AFF22C5EA2600E36FB2 /* 自定义tableview */,
 				D4654AD122C5EA0D00E36FB2 /* AppDelegate.swift */,
 				D4654AD322C5EA0D00E36FB2 /* ViewController.swift */,
 				D4654AD522C5EA0D00E36FB2 /* Main.storyboard */,
@@ -123,6 +174,37 @@
 				D4654AF322C5EA0F00E36FB2 /* Info.plist */,
 			);
 			path = UITestUITests;
+			sourceTree = "<group>";
+		};
+		D4654AFF22C5EA2600E36FB2 /* 自定义tableview */ = {
+			isa = PBXGroup;
+			children = (
+				D40F197B22CB44D10063BB3F /* images */,
+				D40F197A22CB40DA0063BB3F /* controller */,
+				D4654B0122C5EB2900E36FB2 /* view */,
+				D4654B0022C5EB1D00E36FB2 /* model */,
+			);
+			path = "自定义tableview";
+			sourceTree = "<group>";
+		};
+		D4654B0022C5EB1D00E36FB2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D40F197622CB2BAF0063BB3F /* ChatDataSource.swift */,
+				D4654B0222C5EB5000E36FB2 /* MessageItem.swift */,
+				D40F198A22CB49400063BB3F /* UserInfo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D4654B0122C5EB2900E36FB2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D40F197222CB0A940063BB3F /* TableViewCell.swift */,
+				D40F197422CB2B450063BB3F /* TableView.swift */,
+				D40F198C22CB4D230063BB3F /* TableHeaderViewCell.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +311,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40F198622CB44E70063BB3F /* sz.png in Resources */,
+				D40F198422CB44E70063BB3F /* mineBubble@2x.png in Resources */,
+				D40F198522CB44E70063BB3F /* xiaohua.png in Resources */,
+				D40F198722CB44E70063BB3F /* xiaoming.png in Resources */,
 				D4654ADC22C5EA0F00E36FB2 /* LaunchScreen.storyboard in Resources */,
+				D40F198322CB44E70063BB3F /* yourBubble.png in Resources */,
 				D4654AD922C5EA0F00E36FB2 /* Assets.xcassets in Resources */,
+				D40F198922CB44E70063BB3F /* mineBubble.png in Resources */,
+				D40F198822CB44E70063BB3F /* yourBubble@2x.png in Resources */,
 				D4654AD722C5EA0D00E36FB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +346,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4654AD422C5EA0D00E36FB2 /* ViewController.swift in Sources */,
+				D40F197522CB2B450063BB3F /* TableView.swift in Sources */,
+				D40F197322CB0A940063BB3F /* TableViewCell.swift in Sources */,
 				D4654AD222C5EA0D00E36FB2 /* AppDelegate.swift in Sources */,
+				D40F198B22CB49400063BB3F /* UserInfo.swift in Sources */,
+				D40F197922CB37B70063BB3F /* TestTableView_ViewController.swift in Sources */,
+				D40F197722CB2BAF0063BB3F /* ChatDataSource.swift in Sources */,
+				D4654B0322C5EB5000E36FB2 /* MessageItem.swift in Sources */,
+				D40F198D22CB4D230063BB3F /* TableHeaderViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
