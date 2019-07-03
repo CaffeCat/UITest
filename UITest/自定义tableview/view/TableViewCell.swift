@@ -28,6 +28,7 @@ class TableViewCell: UITableViewCell {
         self.msgItem = data
         super.init(style: .default, reuseIdentifier: cellId)
         rebuildUserInterface()
+        //self.backgroundColor = .red
     }
     
     func rebuildUserInterface() {
@@ -62,14 +63,15 @@ class TableViewCell: UITableViewCell {
             //别人的头像在左边, 我的头像在右边
             let avatarX = (type == ChatType.someone) ? 2 : self.frame.size.width - 52
             
-            //头像居于消息底部
-            let avatarY = height
+            //头像居于消息顶部
+            let avatarY: CGFloat =  0
             
             //set the frame correctly
             self.avatarImage.frame = CGRect.init(x: avatarX, y: avatarY, width: 50, height: 50)
             self.addSubview(self.avatarImage)
             
-            let delta = self.frame.size.height - (self.msgItem.insets.top + self.msgItem.insets.bottom + self.msgItem.view.frame.size.height)
+            //如果消息内容height < 头像 height, 消息在头像居中
+            let delta = (50 - (self.msgItem.insets.top + self.msgItem.insets.bottom + self.msgItem.view.frame.size.height))/2
             if delta > 0 {
                 y = delta
             }
@@ -88,9 +90,9 @@ class TableViewCell: UITableViewCell {
         
         //别人的消息左边, 我的消息右边
         if type == ChatType.someone {
-            self.bubbleImage.image = UIImage.init(named: "yourBubble.png")?.stretchableImage(withLeftCapWidth: 21, topCapHeight: 14)
+            self.bubbleImage.image = UIImage.init(named: "yourBubble.png")?.stretchableImage(withLeftCapWidth: 21, topCapHeight: 25)
         }else{
-            self.bubbleImage.image = UIImage.init(named: "mineBubble.png")?.stretchableImage(withLeftCapWidth: 15, topCapHeight: 14)
+            self.bubbleImage.image = UIImage.init(named: "mineBubble.png")?.stretchableImage(withLeftCapWidth: 21, topCapHeight: 25)
         }
         self.bubbleImage.frame = CGRect.init(x: x, y: y,
                                              width: width + self.msgItem.insets.left + self.msgItem.insets.right,

@@ -87,10 +87,10 @@ class MessageItem {
     
     //设置我的图片消息边框
     class func getImageInsetsMine() -> UIEdgeInsets {
-        return UIEdgeInsets.init(top: 11, left: 13, bottom: 16, right: 22)
+        return UIEdgeInsets.init(top: 10, left: 10, bottom: 10, right: 15)
     }
     //设置他人的图片消息边框
     class func getImageInsetsSomeone() -> UIEdgeInsets {
-        return UIEdgeInsets.init(top: 11, left: 13, bottom: 16, right: 22)
+        return UIEdgeInsets.init(top: 10, left: 15, bottom: 10, right: 10)
     }
 }

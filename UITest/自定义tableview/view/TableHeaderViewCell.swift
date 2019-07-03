@@ -8,6 +8,9 @@
 
 import UIKit
 
+let screenWidth = UIScreen.main.bounds.size.width
+let screenHeight = UIScreen.main.bounds.size.height
+
 class TableHeaderViewCell: UITableViewCell {
 
     var height: CGFloat = 30
@@ -20,6 +23,7 @@ class TableHeaderViewCell: UITableViewCell {
     
     init(reuseIdentifier cellId: String) {
         super.init(style: .default, reuseIdentifier: cellId)
+        //self.backgroundColor = .blue
     }
     
     func setDate(_ value: Date) {
@@ -35,7 +39,7 @@ class TableHeaderViewCell: UITableViewCell {
         }
         
         self.selectionStyle = .none
-        self.label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: self.frame.size.width, height: height))
+        self.label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: screenWidth, height: height))
         self.label.text = text
         self.label.font = UIFont.boldSystemFont(ofSize: 12)
         self.label.textAlignment = .center

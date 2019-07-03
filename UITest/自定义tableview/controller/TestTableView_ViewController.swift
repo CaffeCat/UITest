@@ -83,8 +83,11 @@ class TestTableView_ViewController: UIViewController {
         let fifth = MessageItem.init(body: "早叫你不来", user: me,
                                      date: Date.init(timeIntervalSinceNow: 0),
                                      mtype: .mine)
-        chats = [first, second, third, fourth, fifth, zero, zero1]
-        
+        let sixth = MessageItem.init(image: UIImage.init(named: "sz.png")!, user: you,
+                                     date: Date.init(timeIntervalSinceNow: -100),
+                                     mtype: .someone)
+        chats = [first, second, third, fourth, fifth, sixth, zero, zero1]
+        //chats = [zero, second]
         self.tableView.chatDataSource = self
         self.tableView.reloadData()
         self.view.addSubview(self.tableView)
