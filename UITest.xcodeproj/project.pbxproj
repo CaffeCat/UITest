@@ -141,7 +141,8 @@
 		D4654AD022C5EA0D00E36FB2 /* UITest */ = {
 			isa = PBXGroup;
 			children = (
-				D4654AFF22C5EA2600E36FB2 /* 自定义tableview */,
+				D48353DD22CDA23C007BAF63 /* 普通tableView用法 */,
+				D4654AFF22C5EA2600E36FB2 /* 聊天使用的tableview */,
 				D4654AD122C5EA0D00E36FB2 /* AppDelegate.swift */,
 				D4654AD322C5EA0D00E36FB2 /* ViewController.swift */,
 				D4654AD522C5EA0D00E36FB2 /* Main.storyboard */,
@@ -170,7 +171,7 @@
 			path = UITestUITests;
 			sourceTree = "<group>";
 		};
-		D4654AFF22C5EA2600E36FB2 /* 自定义tableview */ = {
+		D4654AFF22C5EA2600E36FB2 /* 聊天使用的tableview */ = {
 			isa = PBXGroup;
 			children = (
 				D40F197B22CB44D10063BB3F /* images */,
@@ -178,7 +179,7 @@
 				D4654B0122C5EB2900E36FB2 /* view */,
 				D4654B0022C5EB1D00E36FB2 /* model */,
 			);
-			path = "自定义tableview";
+			path = "聊天使用的tableview";
 			sourceTree = "<group>";
 		};
 		D4654B0022C5EB1D00E36FB2 /* model */ = {
@@ -199,6 +200,13 @@
 				D40F198C22CB4D230063BB3F /* TableHeaderViewCell.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		D48353DD22CDA23C007BAF63 /* 普通tableView用法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "普通tableView用法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
