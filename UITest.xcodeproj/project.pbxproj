@@ -26,6 +26,7 @@
 		D4654AE722C5EA0F00E36FB2 /* UITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AE622C5EA0F00E36FB2 /* UITestTests.swift */; };
 		D4654AF222C5EA0F00E36FB2 /* UITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AF122C5EA0F00E36FB2 /* UITestUITests.swift */; };
 		D4654B0322C5EB5000E36FB2 /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654B0222C5EB5000E36FB2 /* MessageItem.swift */; };
+		D47DDF0C22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DDF0B22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		D4654AF122C5EA0F00E36FB2 /* UITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestUITests.swift; sourceTree = "<group>"; };
 		D4654AF322C5EA0F00E36FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4654B0222C5EB5000E36FB2 /* MessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
+		D47DDF0B22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_basic_tableview_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 		D48353DD22CDA23C007BAF63 /* 普通tableView用法 */ = {
 			isa = PBXGroup;
 			children = (
+				D47DDF0B22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift */,
 			);
 			path = "普通tableView用法";
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				D40F197322CB0A940063BB3F /* TableViewCell.swift in Sources */,
 				D4654AD222C5EA0D00E36FB2 /* AppDelegate.swift in Sources */,
 				D40F198B22CB49400063BB3F /* UserInfo.swift in Sources */,
+				D47DDF0C22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift in Sources */,
 				D40F197922CB37B70063BB3F /* TestTableView_ViewController.swift in Sources */,
 				D40F197722CB2BAF0063BB3F /* ChatDataSource.swift in Sources */,
 				D4654B0322C5EB5000E36FB2 /* MessageItem.swift in Sources */,

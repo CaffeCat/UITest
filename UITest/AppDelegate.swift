@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        let testTableVC = TestTableView_ViewController.init()
+        //let testTableVC = TestTableView_ViewController.init()
+        let testTableVC = Test_basic_tableview_ViewController.init()
         testTableVC.view.frame = UIScreen.main.bounds
         testTableVC.view.backgroundColor = .white
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
