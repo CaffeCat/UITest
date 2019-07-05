@@ -63,6 +63,15 @@ class Test_basic_tableview_ViewController: UIViewController {
         longPress.minimumPressDuration = 1.0
         self.tableView?.addGestureRecognizer(longPress)
     }
+    
+    //移动到表的底部
+    func crollToBottom() {
+        //方式一: 直接滚动到某一行
+        //self.tableView?.scrollToRow(at: indexPath, at: .bottom, animated: true)
+        //方式二: 直接设置偏移量
+        let offset = CGPoint.init(x: 0, y: (self.tableView?.contentSize.height)! - (self.tableView?.bounds.size.height)!)
+        self.tableView?.setContentOffset(offset, animated: true)
+    }
 }
 
 //手势功能的类扩展

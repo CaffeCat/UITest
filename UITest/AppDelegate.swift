@@ -16,12 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        //let testTableVC = TestTableView_ViewController.init()
-        let testTableVC = Test_basic_tableview_ViewController.init()
-        testTableVC.view.frame = UIScreen.main.bounds
-        testTableVC.view.backgroundColor = .white
+        //let testVC = TestTableView_ViewController.init()
+        //let testVC = Test_basic_tableview_ViewController.init()
+        let testVC = Test_UISearchBar_ViewController.init()
+        testVC.view.frame = UIScreen.main.bounds
+        testVC.view.backgroundColor = .white
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = testTableVC
+        self.window?.rootViewController = testVC
         self.window?.makeKeyAndVisible()
         
         return true
