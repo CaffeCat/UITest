@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iCamSee.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>976FDCAC35611B27C97803B6A8323B719ADDB557</string>
+				<key>dateExpires</key>
+				<string>2020/7/21</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>armv7s</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>976FDCAC35611B27C97803B6A8323B719ADDB557</string>
+						<key>dateExpires</key>
+						<string>2020/7/21</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>mi_decoder_framework.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJBMNR8D2H</string>
+						<key>name</key>
+						<string>an bing</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>ZJBMNR8D2H.com.macrovideo.lws380</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.networking.wifi-info</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>ZJBMNR8D2H</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>iCamSee.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>3b9b6157-e0cc-47e5-80f7-62916836fca6</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.macrovideo.lws380</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>ZJBMNR8D2H</string>
+				<key>name</key>
+				<string>an bing</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

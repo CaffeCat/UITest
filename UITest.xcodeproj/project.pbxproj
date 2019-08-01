@@ -21,6 +21,8 @@
 		D410207522CEF3C00076C390 /* Test_UISearchBar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410207422CEF3C00076C390 /* Test_UISearchBar_ViewController.swift */; };
 		D410207922CF2ABF0076C390 /* Test_Navigation_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410207822CF2ABF0076C390 /* Test_Navigation_ViewController.swift */; };
 		D410207B22CF34760076C390 /* Navigation_Detail_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410207A22CF34760076C390 /* Navigation_Detail_ViewController.swift */; };
+		D45B77CC22F16C60002BBDC9 /* ArrayGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B77CB22F16C60002BBDC9 /* ArrayGameModel.swift */; };
+		D45B77CF22F195BC002BBDC9 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B77CE22F195BC002BBDC9 /* AnimationViewController.swift */; };
 		D4654AD222C5EA0D00E36FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AD122C5EA0D00E36FB2 /* AppDelegate.swift */; };
 		D4654AD422C5EA0D00E36FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AD322C5EA0D00E36FB2 /* ViewController.swift */; };
 		D4654AD722C5EA0D00E36FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4654AD522C5EA0D00E36FB2 /* Main.storyboard */; };
@@ -30,6 +32,7 @@
 		D4654AF222C5EA0F00E36FB2 /* UITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654AF122C5EA0F00E36FB2 /* UITestUITests.swift */; };
 		D4654B0322C5EB5000E36FB2 /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654B0222C5EB5000E36FB2 /* MessageItem.swift */; };
 		D47DDF0C22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DDF0B22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift */; };
+		D4CCDF0222F030B200DBF90C /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CCDF0122F030B200DBF90C /* ViewFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,8 @@
 		D410207422CEF3C00076C390 /* Test_UISearchBar_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_UISearchBar_ViewController.swift; sourceTree = "<group>"; };
 		D410207822CF2ABF0076C390 /* Test_Navigation_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Navigation_ViewController.swift; sourceTree = "<group>"; };
 		D410207A22CF34760076C390 /* Navigation_Detail_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Detail_ViewController.swift; sourceTree = "<group>"; };
+		D45B77CB22F16C60002BBDC9 /* ArrayGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayGameModel.swift; sourceTree = "<group>"; };
+		D45B77CE22F195BC002BBDC9 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		D4654ACE22C5EA0D00E36FB2 /* UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4654AD122C5EA0D00E36FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4654AD322C5EA0D00E36FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +84,7 @@
 		D4654AF322C5EA0F00E36FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4654B0222C5EB5000E36FB2 /* MessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
 		D47DDF0B22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_basic_tableview_ViewController.swift; sourceTree = "<group>"; };
+		D4CCDF0122F030B200DBF90C /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,29 @@
 			path = "导航栏";
 			sourceTree = "<group>";
 		};
+		D410207F22CF4C700076C390 /* 网格视图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网格视图";
+			sourceTree = "<group>";
+		};
+		D45B77CA22F16C24002BBDC9 /* 数组数据存储模型 */ = {
+			isa = PBXGroup;
+			children = (
+				D45B77CB22F16C60002BBDC9 /* ArrayGameModel.swift */,
+			);
+			path = "数组数据存储模型";
+			sourceTree = "<group>";
+		};
+		D45B77CD22F19585002BBDC9 /* 动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				D45B77CE22F195BC002BBDC9 /* AnimationViewController.swift */,
+			);
+			path = "动画效果";
+			sourceTree = "<group>";
+		};
 		D4654AC522C5EA0D00E36FB2 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +195,10 @@
 		D4654AD022C5EA0D00E36FB2 /* UITest */ = {
 			isa = PBXGroup;
 			children = (
+				D45B77CD22F19585002BBDC9 /* 动画效果 */,
+				D45B77CA22F16C24002BBDC9 /* 数组数据存储模型 */,
+				D4CCDF0022F02F8D00DBF90C /* 工厂方法 */,
+				D410207F22CF4C700076C390 /* 网格视图 */,
 				D410207722CF26B20076C390 /* 导航栏 */,
 				D410207322CEF3650076C390 /* 搜索条UISearchBar */,
 				D48353DD22CDA23C007BAF63 /* 普通tableView用法 */,
@@ -235,6 +268,14 @@
 				D47DDF0B22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift */,
 			);
 			path = "普通tableView用法";
+			sourceTree = "<group>";
+		};
+		D4CCDF0022F02F8D00DBF90C /* 工厂方法 */ = {
+			isa = PBXGroup;
+			children = (
+				D4CCDF0122F030B200DBF90C /* ViewFactory.swift */,
+			);
+			path = "工厂方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,10 +419,13 @@
 				D40F197522CB2B450063BB3F /* TableView.swift in Sources */,
 				D410207B22CF34760076C390 /* Navigation_Detail_ViewController.swift in Sources */,
 				D40F197322CB0A940063BB3F /* TableViewCell.swift in Sources */,
+				D4CCDF0222F030B200DBF90C /* ViewFactory.swift in Sources */,
 				D410207922CF2ABF0076C390 /* Test_Navigation_ViewController.swift in Sources */,
+				D45B77CF22F195BC002BBDC9 /* AnimationViewController.swift in Sources */,
 				D4654AD222C5EA0D00E36FB2 /* AppDelegate.swift in Sources */,
 				D40F198B22CB49400063BB3F /* UserInfo.swift in Sources */,
 				D47DDF0C22CE1B84004C3875 /* Test_basic_tableview_ViewController.swift in Sources */,
+				D45B77CC22F16C60002BBDC9 /* ArrayGameModel.swift in Sources */,
 				D40F197922CB37B70063BB3F /* TestTableView_ViewController.swift in Sources */,
 				D40F197722CB2BAF0063BB3F /* ChatDataSource.swift in Sources */,
 				D4654B0322C5EB5000E36FB2 /* MessageItem.swift in Sources */,
